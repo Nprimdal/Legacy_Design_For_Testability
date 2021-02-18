@@ -5,12 +5,12 @@ namespace ECS_Legacy_Test
 {
     public class ECS_Test
     {
-        private ITempSensor _uut;
+
 
         [SetUp]
         public void Setup()
         {
-            _uut = new FakeTempSensor();
+            
         }
 
         [TestCase(-5,-5)]
