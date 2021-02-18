@@ -8,6 +8,7 @@ namespace ECS_Legacy_Test
     public class FakeTempSensor : ITempSensor
     {
         public int Temp { get; set; }
+        public bool SelfTestCalled = false;
         public int GetTemp()
         {
             return Temp;
@@ -15,7 +16,8 @@ namespace ECS_Legacy_Test
 
         public bool RunSelfTest()
         {
-            return true;
+            SelfTestCalled = true;
+            return SelfTestCalled;
         }
     }
 }

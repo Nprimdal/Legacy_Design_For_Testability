@@ -10,3 +10,16 @@ C:\Users\Bruger\source\repos\Legacy_Design_For_Testability\ECS_Legacy_version2\b
 C:\Users\Bruger\source\repos\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.dll
 C:\Users\Bruger\source\repos\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.pdb
 C:\Users\Bruger\source\repos\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.genruntimeconfig.cache
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\bin\Debug\netcoreapp3.1\ECS_Legacy_version2.exe
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\bin\Debug\netcoreapp3.1\ECS_Legacy_version2.deps.json
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\bin\Debug\netcoreapp3.1\ECS_Legacy_version2.runtimeconfig.json
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\bin\Debug\netcoreapp3.1\ECS_Legacy_version2.runtimeconfig.dev.json
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\bin\Debug\netcoreapp3.1\ECS_Legacy_version2.dll
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\bin\Debug\netcoreapp3.1\ECS_Legacy_version2.pdb
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.csprojAssemblyReference.cache
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.AssemblyInfoInputs.cache
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.AssemblyInfo.cs
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.csproj.CoreCompileInputs.cache
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.dll
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.pdb
+C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_version2\obj\Debug\netcoreapp3.1\ECS_Legacy_version2.genruntimeconfig.cache
