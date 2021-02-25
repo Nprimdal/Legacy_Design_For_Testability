@@ -78,7 +78,6 @@ namespace ECS_Legacy_Test
 
             Assert.That(uut.GetThreshold(),Is.EqualTo(thres));
 
-
         }
 
 
