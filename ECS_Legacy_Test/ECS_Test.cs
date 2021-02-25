@@ -1,20 +1,21 @@
 using ECS_Legacy_version2;
 using NUnit.Framework;
+using NSubstitute;
 
 namespace ECS_Legacy_Test
 {
     public class ECS_Test
     {
         private ECS uut;
-        private FakeTempSensor tempSensor;
-        private MockHeater heater;
+        private ITempSensor tempSensor;
+        private IHeater heater;
         
 
         [SetUp]
         public void Setup()
         {
-            tempSensor=new FakeTempSensor();
-            heater=new MockHeater();
+            tempSensor = Substitute.For<ITempSensor>();
+            heater = Substitute.For<IHeater>();
             uut=new ECS(17,tempSensor,heater);
         }
 
@@ -28,30 +29,35 @@ namespace ECS_Legacy_Test
         [TestCase(45, 45)]
         public void Test_GetCurTemp(int temp, int expected)
         {
-            tempSensor.Temp = temp;
+            tempSensor.GetTemp().Returns(temp);
 
             Assert.That(uut.GetCurTemp(),Is.EqualTo(expected));
         }
 
-        [TestCase(-5,true)]
-        [TestCase(16,true)]
-        public void Test_Regulate_TempUnderThreshold_Expected_true(int temp, bool expected)
+        [TestCase(-5)]
+        [TestCase(16)]
+        public void Test_Regulate_TempUnderThreshold_Expected_true(int temp)
         {
-            tempSensor.Temp = temp;
-            uut.Regulate();
+            tempSensor.GetTemp().Returns(temp);
 
-            Assert.That(heater.IsOn, Is.EqualTo(true));
+            //tempSensor.Temp = temp;
+            uut.Regulate();
+          
+            //Assert.That(heater.IsOn, Is.EqualTo(true));
+            heater.Received(1).TurnOn();
         }
 
 
-        [TestCase(17, true)]
-        [TestCase(45, true)]
-        public void Test_Regulate_TempOverThreshold_Expected_false(int temp, bool expected)
+        [TestCase(17)]
+        [TestCase(45)]
+        public void Test_Regulate_TempOverThreshold_Expected_false(int temp)
         {
-            tempSensor.Temp = temp;
+            tempSensor.GetTemp().Returns(temp);
+            //tempSensor.Temp = temp;
             uut.Regulate();
 
-            Assert.That(heater.IsOn, Is.EqualTo(false));
+            //Assert.That(heater.IsOn, Is.EqualTo(false));
+            heater.Received().TurnOff();
         }
 
         [Test]
@@ -59,8 +65,8 @@ namespace ECS_Legacy_Test
         {
             uut.RunSelfTest();
 
-            Assert.True(heater.SelfTestCalled);
-            Assert.That(tempSensor.SelfTestCalled);
+            //Assert.True(heater.SelfTestCalled);
+            //Assert.That(tempSensor.SelfTestCalled);
         }
 
         [TestCase(22)]

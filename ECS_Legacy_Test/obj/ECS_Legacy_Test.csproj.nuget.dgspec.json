@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj": {}
+    "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj": {
+    "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj",
         "projectName": "ECS_Legacy_Test",
-        "projectPath": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj",
-        "packagesPath": "C:\\Users\\45284\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\ECS_Legacy_Test.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\45284\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,9 +29,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj": {
-                "projectPath": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj"
+              "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj": {
+                "projectPath": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj"
               }
             }
           }
@@ -44,10 +45,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
             },
             "NUnit": {
               "target": "Package",
@@ -73,24 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj": {
+    "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj",
+        "projectUniqueName": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj",
         "projectName": "ECS_Legacy_version2",
-        "projectPath": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj",
-        "packagesPath": "C:\\Users\\45284\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45284\\Source\\Repos\\Nprimdal\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\obj\\",
+        "projectPath": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\ECS_Legacy_version2.csproj",
+        "packagesPath": "C:\\Users\\Bruger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruger\\source\\repos\\Legacy_Design_For_Testability\\ECS_Legacy_version2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\45284\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,6 +108,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -113,6 +120,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -128,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

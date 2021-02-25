@@ -196,3 +196,5 @@ C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_Te
 C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_Test\obj\Debug\netcoreapp3.1\ECS_Legacy_Test.dll
 C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_Test\obj\Debug\netcoreapp3.1\ECS_Legacy_Test.pdb
 C:\Users\45284\Source\Repos\Nprimdal\Legacy_Design_For_Testability\ECS_Legacy_Test\obj\Debug\netcoreapp3.1\ECS_Legacy_Test.genruntimeconfig.cache
+C:\Users\Bruger\source\repos\Legacy_Design_For_Testability\ECS_Legacy_Test\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Bruger\source\repos\Legacy_Design_For_Testability\ECS_Legacy_Test\bin\Debug\netcoreapp3.1\NSubstitute.dll
